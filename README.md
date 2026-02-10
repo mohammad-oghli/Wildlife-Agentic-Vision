@@ -1,4 +1,4 @@
-# Wildlife Behavioral Risk Vision Agent
+# Wildlife Behavioral Risk Vision Agent - Google Gemini 3 Hackathon
 
 This project implements a stateful, ethical vision agent that detects
 persistent behavioral deviations in wildlife relative to group norms.
