@@ -1,0 +1,136 @@
+{
+  "individuals": {
+    "animal_1": {
+      "history": [
+        {
+          "timestamp": "00:00",
+          "individual_id": "animal_1",
+          "speed": 0.3,
+          "posture_asymmetry": 0.9,
+          "distance_from_group": 8.0,
+          "group_baseline": {
+            "avg_speed": 0.05,
+            "avg_distance": 2.5
+          },
+          "explanation": {
+            "seed": {
+              "time_window": [
+                0.0,
+                4.0
+              ],
+              "avg_coordinate": [
+                0.38,
+                0.51
+              ]
+            },
+            "description": "Individual is moving with a severe limp, holding the left hind leg completely off the ground."
+          }
+        },
+        {
+          "timestamp": "00:05",
+          "individual_id": "animal_1",
+          "speed": 0.25,
+          "posture_asymmetry": 0.9,
+          "distance_from_group": 4.0,
+          "group_baseline": {
+            "avg_speed": 0.05,
+            "avg_distance": 2.0
+          },
+          "explanation": {
+            "desc": "Individual continues to hop on three legs towards the group; left hind leg is dangling.",
+            "class": "Elk",
+            "expected_reason": "Severe injury or fracture to left hind leg"
+          }
+        },
+        {
+          "timestamp": "00:10",
+          "individual_id": "animal_1",
+          "speed": 0.2,
+          "posture_asymmetry": 0.8,
+          "distance_from_group": 1.0,
+          "group_baseline": {
+            "avg_speed": 0.1,
+            "avg_distance": 1.5
+          },
+          "explanation": {
+            "desc": "Slowing down as it merges with the herd, still avoiding weight bearing on the injured limb.",
+            "class": "Elk",
+            "expected_reason": "Severe injury or fracture to left hind leg"
+          }
+        },
+        {
+          "timestamp": "00:15",
+          "individual_id": "animal_1",
+          "speed": 0.0,
+          "posture_asymmetry": 0.8,
+          "distance_from_group": 0.5,
+          "group_baseline": {
+            "avg_speed": 0.05,
+            "avg_distance": 1.5
+          },
+          "explanation": {
+            "desc": "Standing with the group, left hind leg remains lifted in a static posture.",
+            "class": "Elk",
+            "expected_reason": "Severe injury or fracture to left hind leg"
+          }
+        }
+      ],
+      "confidence": 1.0,
+      "risk_level": "at_risk"
+    },
+    "animal_2": {
+      "history": [
+        {
+          "timestamp": "00:00",
+          "individual_id": "animal_2",
+          "speed": 0.0,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 2.0,
+          "group_baseline": {
+            "avg_speed": 0.05,
+            "avg_distance": 2.5
+          },
+          "explanation": "Standing still, observing surroundings."
+        },
+        {
+          "timestamp": "00:05",
+          "individual_id": "animal_2",
+          "speed": 0.0,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 1.5,
+          "group_baseline": {
+            "avg_speed": 0.05,
+            "avg_distance": 2.0
+          },
+          "explanation": "Standing stationary as other individuals approach."
+        },
+        {
+          "timestamp": "00:10",
+          "individual_id": "animal_2",
+          "speed": 0.1,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 1.0,
+          "group_baseline": {
+            "avg_speed": 0.1,
+            "avg_distance": 1.5
+          },
+          "explanation": "Shifting position slightly within the group."
+        },
+        {
+          "timestamp": "00:15",
+          "individual_id": "animal_2",
+          "speed": 0.0,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 0.5,
+          "group_baseline": {
+            "avg_speed": 0.05,
+            "avg_distance": 1.5
+          },
+          "explanation": "Standing calmly within the cluster."
+        }
+      ],
+      "confidence": 0.30800000000000005,
+      "risk_level": "monitor"
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "individuals": {
+    "animal_1": {
+      "history": [
+        {
+          "timestamp": "00:00",
+          "individual_id": "animal_1",
+          "speed": 0.2,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 4.0,
+          "group_baseline": {
+            "avg_speed": 0.1,
+            "avg_distance": 3.0
+          },
+          "explanation": "Walking slowly to the left of the group"
+        },
+        {
+          "timestamp": "00:06",
+          "individual_id": "animal_1",
+          "speed": 0.4,
+          "posture_asymmetry": 0.1,
+          "distance_from_group": 5.0,
+          "group_baseline": {
+            "avg_speed": 0.4,
+            "avg_distance": 3.5
+          },
+          "explanation": "Walking away from camera"
+        },
+        {
+          "timestamp": "00:12",
+          "individual_id": "animal_1",
+          "speed": 0.2,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 6.0,
+          "group_baseline": {
+            "avg_speed": 0.2,
+            "avg_distance": 2.5
+          },
+          "explanation": "Slowing down on the left flank"
+        }
+      ],
+      "confidence": 0.6040000000000001,
+      "risk_level": "monitor"
+    },
+    "animal_2": {
+      "history": [
+        {
+          "timestamp": "00:00",
+          "individual_id": "animal_2",
+          "speed": 0.1,
+          "posture_asymmetry": 1.0,
+          "distance_from_group": 1.0,
+          "group_baseline": {
+            "avg_speed": 0.1,
+            "avg_distance": 3.0
+          },
+          "explanation": {
+            "seed": {
+              "time_window": [
+                0.0,
+                5.0
+              ],
+              "avg_coordinate": [
+                0.35,
+                0.5
+              ]
+            }
+          }
+        },
+        {
+          "timestamp": "00:06",
+          "individual_id": "animal_2",
+          "speed": 0.3,
+          "posture_asymmetry": 0.9,
+          "distance_from_group": 2.0,
+          "group_baseline": {
+            "avg_speed": 0.4,
+            "avg_distance": 3.5
+          },
+          "explanation": {
+            "desc": "Severe limp; rear left leg is dangling and non-weight bearing while moving",
+            "class": "Elk (Cervus canadensis)",
+            "expected_reason": "Traumatic leg injury or fracture"
+          }
+        },
+        {
+          "timestamp": "00:12",
+          "individual_id": "animal_2",
+          "speed": 0.2,
+          "posture_asymmetry": 0.9,
+          "distance_from_group": 1.5,
+          "group_baseline": {
+            "avg_speed": 0.2,
+            "avg_distance": 2.5
+          },
+          "explanation": {
+            "desc": "Continuing to hop on three legs, merging into the group cluster",
+            "class": "Elk (Cervus canadensis)",
+            "expected_reason": "Traumatic leg injury or fracture"
+          }
+        },
+        {
+          "timestamp": "00:18",
+          "individual_id": "animal_2",
+          "speed": 0.0,
+          "posture_asymmetry": 0.8,
+          "distance_from_group": 0.0,
+          "group_baseline": {
+            "avg_speed": 0.05,
+            "avg_distance": 2.0
+          },
+          "explanation": {
+            "desc": "Standing with group, injured leg visibly held off the ground",
+            "class": "Elk (Cervus canadensis)",
+            "expected_reason": "Traumatic leg injury or fracture"
+          }
+        }
+      ],
+      "confidence": 1.0,
+      "risk_level": "at_risk"
+    },
+    "animal_3": {
+      "history": [
+        {
+          "timestamp": "00:00",
+          "individual_id": "animal_3",
+          "speed": 0.0,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 2.0,
+          "group_baseline": {
+            "avg_speed": 0.1,
+            "avg_distance": 3.0
+          },
+          "explanation": "Standing still to the right of the injured individual"
+        },
+        {
+          "timestamp": "00:06",
+          "individual_id": "animal_3",
+          "speed": 0.4,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 1.0,
+          "group_baseline": {
+            "avg_speed": 0.4,
+            "avg_distance": 3.5
+          },
+          "explanation": "Moving away from camera in sync with group"
+        },
+        {
+          "timestamp": "00:12",
+          "individual_id": "animal_3",
+          "speed": 0.2,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 0.5,
+          "group_baseline": {
+            "avg_speed": 0.2,
+            "avg_distance": 2.5
+          },
+          "explanation": "Clustering with other herd members"
+        },
+        {
+          "timestamp": "00:18",
+          "individual_id": "animal_3",
+          "speed": 0.0,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 1.0,
+          "group_baseline": {
+            "avg_speed": 0.05,
+            "avg_distance": 2.0
+          },
+          "explanation": "Standing near the injured individual"
+        }
+      ],
+      "confidence": 0.664,
+      "risk_level": "monitor"
+    },
+    "animal_4": {
+      "history": [
+        {
+          "timestamp": "00:00",
+          "individual_id": "animal_4",
+          "speed": 0.0,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 5.0,
+          "group_baseline": {
+            "avg_speed": 0.1,
+            "avg_distance": 3.0
+          },
+          "explanation": "Grazing on the far right periphery"
+        },
+        {
+          "timestamp": "00:06",
+          "individual_id": "animal_4",
+          "speed": 0.4,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 4.0,
+          "group_baseline": {
+            "avg_speed": 0.4,
+            "avg_distance": 3.5
+          },
+          "explanation": "Joining the main group movement"
+        }
+      ],
+      "confidence": 0.12800000000000003,
+      "risk_level": "monitor"
+    }
+  }
+}

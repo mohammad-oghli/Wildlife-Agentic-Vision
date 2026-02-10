@@ -1,0 +1,157 @@
+{
+  "individuals": {
+    "animal_1": {
+      "history": [
+        {
+          "timestamp": "00:00",
+          "individual_id": "animal_1",
+          "speed": 0.1,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 0.0,
+          "group_baseline": {
+            "avg_speed": 0.1,
+            "avg_distance": 1.5
+          },
+          "explanation": "Adult doe standing in river stream, oriented right."
+        },
+        {
+          "timestamp": "00:08",
+          "individual_id": "animal_1",
+          "speed": 0.2,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 0.0,
+          "group_baseline": {
+            "avg_speed": 0.2,
+            "avg_distance": 2.0
+          },
+          "explanation": "Adult doe walking slowly towards the river bank."
+        },
+        {
+          "timestamp": "00:16",
+          "individual_id": "animal_1",
+          "speed": 0.1,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 0.0,
+          "group_baseline": {
+            "avg_speed": 0.1,
+            "avg_distance": 2.5
+          },
+          "explanation": "Adult standing on the bank observing."
+        }
+      ],
+      "confidence": 0.52,
+      "risk_level": "monitor"
+    },
+    "animal_2": {
+      "history": [
+        {
+          "timestamp": "00:00",
+          "individual_id": "animal_2",
+          "speed": 0.1,
+          "posture_asymmetry": 0.1,
+          "distance_from_group": 2.5,
+          "group_baseline": {
+            "avg_speed": 0.1,
+            "avg_distance": 1.5
+          },
+          "explanation": "Fawn on the left, standing in water."
+        },
+        {
+          "timestamp": "00:08",
+          "individual_id": "animal_2",
+          "speed": 0.2,
+          "posture_asymmetry": 0.4,
+          "distance_from_group": 3.0,
+          "group_baseline": {
+            "avg_speed": 0.2,
+            "avg_distance": 2.0
+          },
+          "explanation": "Fawn following the group, gait appears slightly uneven as it traverses water."
+        },
+        {
+          "timestamp": "00:16",
+          "individual_id": "animal_2",
+          "speed": 0.1,
+          "posture_asymmetry": 0.9,
+          "distance_from_group": 4.0,
+          "group_baseline": {
+            "avg_speed": 0.1,
+            "avg_distance": 2.5
+          },
+          "explanation": {
+            "seed": {
+              "time_window": [
+                15,
+                19
+              ],
+              "avg_coordinate": [
+                0.75,
+                0.6
+              ]
+            }
+          }
+        },
+        {
+          "timestamp": "00:25",
+          "individual_id": "animal_2",
+          "speed": 0.1,
+          "posture_asymmetry": 0.9,
+          "distance_from_group": 0.0,
+          "group_baseline": {
+            "avg_speed": 0.1,
+            "avg_distance": 0.0
+          },
+          "explanation": {
+            "desc": "Individual is isolated, moving slowly with a severe limp, avoiding weight on the front left leg.",
+            "class": "White-tailed Deer Fawn",
+            "expected_reason": "Physical injury to the front left leg causing mobility impairment."
+          }
+        }
+      ],
+      "confidence": 0.8760000000000001,
+      "risk_level": "at_risk"
+    },
+    "animal_3": {
+      "history": [
+        {
+          "timestamp": "00:00",
+          "individual_id": "animal_3",
+          "speed": 0.1,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 1.0,
+          "group_baseline": {
+            "avg_speed": 0.1,
+            "avg_distance": 1.5
+          },
+          "explanation": "Fawn on the right, standing near adult."
+        },
+        {
+          "timestamp": "00:08",
+          "individual_id": "animal_3",
+          "speed": 0.2,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 1.0,
+          "group_baseline": {
+            "avg_speed": 0.2,
+            "avg_distance": 2.0
+          },
+          "explanation": "Fawn walking normally alongside the adult."
+        },
+        {
+          "timestamp": "00:16",
+          "individual_id": "animal_3",
+          "speed": 0.1,
+          "posture_asymmetry": 0.0,
+          "distance_from_group": 1.0,
+          "group_baseline": {
+            "avg_speed": 0.1,
+            "avg_distance": 2.5
+          },
+          "explanation": "Healthy fawn standing on the bank."
+        }
+      ],
+      "confidence": 0.28,
+      "risk_level": "monitor"
+    }
+  }
+}
