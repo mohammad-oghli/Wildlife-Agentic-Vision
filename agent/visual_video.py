@@ -111,7 +111,7 @@ Tracking strategy (MANDATORY):
     - All tracking logic begins strictly at the seed frame.
 4. Seek to the frames nearest to the time window range provided in memory data for seed attribute [time_window]
 5. Convert normalized coordinates from memory data into pixel coordinates using seed attribute [avg_coordinate]
-6. Initialize area of interest large bounding box centered on that position 
+6. Initialize area of interest bounding box centered on that position 
 7. Initialize an OpenCV CSRT tracker using that bounding box
 8. Use the tracker to update and draw the bounding box for all subsequent frames
 9. Do NOT re-compute or re-invent bounding boxes after initialization
