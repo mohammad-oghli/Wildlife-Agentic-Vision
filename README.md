@@ -86,7 +86,7 @@ Annotated Output Video
 
 ## Architecture Diagram
 
-![agentic vision architecture](scripts/docs_assets/wildlife_agent_architecture.png)
+![agentic vision architecture](docs_assets/wildlife_agent_architecture.png)
 
 
 ## Key Design Principles
