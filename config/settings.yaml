@@ -1,3 +1,4 @@
 model: gemini-3-pro-preview
 confidence_threshold: 0.7
 max_history: 50
+frame_sampling_seconds: 5
