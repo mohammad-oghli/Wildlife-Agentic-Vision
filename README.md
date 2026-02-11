@@ -230,9 +230,7 @@ Risk is escalated only when:
 * Signal repeats across timestamps
 
 
----
-
-## 🛠 Technologies Used
+## Technologies Used
 
 * Google Gemini 3 Vision
 * Gemini 3 Pro
