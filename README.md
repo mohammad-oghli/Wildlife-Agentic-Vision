@@ -62,7 +62,7 @@ Generates a complete standalone Python script that:
 * Captures sample frames
 
 
-## Architecture
+## Workflow
 
 ```
 Wildlife Video
@@ -83,6 +83,10 @@ OpenCV Tracker (CSRT)
       ▼
 Annotated Output Video
 ```
+
+## Architecture Diagram
+
+![agentic vision architecture](scripts/docs_assets/wildlife_agent_architecture.png)
 
 
 ## Key Design Principles
