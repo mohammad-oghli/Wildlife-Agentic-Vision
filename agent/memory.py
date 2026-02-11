@@ -1,7 +1,16 @@
 import json
+from datetime import datetime
 from pathlib import Path
 
 MEMORY_FILE = Path("data/memory.json")
+
+def set_session_metadata(memory: dict, video_path: str, frame_sampling):
+    memory["session"] = {
+        "video_path": video_path,
+        "created_at": datetime.now().date().isoformat(),
+        "frame_sampling": frame_sampling
+    }
+    save_memory(memory)
 
 def load_memory():
     if MEMORY_FILE.exists():
