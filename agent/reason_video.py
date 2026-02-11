@@ -6,11 +6,14 @@ from google.genai import types
 
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 settings = yaml.safe_load(open("config/settings.yaml"))
+frame_sample = settings["frame_sampling_seconds"]
 
-SYSTEM_PROMPT = """
+SYSTEM_PROMPT = f"""
 You are a wildlife monitoring agent.
 
 You analyze video directly and extract structured behavioral observations.
+
+Use Frame Sampling in Seconds: {frame_sample}
 
 For EACH visible animal:
 - Assign a stable individual_id (animal_1, animal_2, ...)
@@ -25,7 +28,7 @@ Rules:
 - Output ONLY valid JSON
 """
 
-def reason_from_video(video_bytes: bytes, frame_sample=2):
+def reason_from_video(video_bytes: bytes):
     prompt = """
 Analyze each video frame individually every {frame_sample} seconds and return JSON in the following format.
 Do not skip any frame.
