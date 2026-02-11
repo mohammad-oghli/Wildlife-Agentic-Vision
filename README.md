@@ -6,6 +6,11 @@ An ethical, stateful, dual-agent wildlife monitoring system that detects **persi
 
 Built for conservation monitoring demos and the **Google Gemini 3 Hackathon**.
 
+## Demo
+
+<p align="center"> <img src="docs_assets/vision_demo.gif" width="400"> </p>
+
+<p align="center"> <img src="docs_assets/sample.png" width="48%"> <img src="docs_assets/vision_sample.jpg" width="48%"> </p>
 
 ## Problem
 
@@ -286,3 +291,10 @@ A foundation for scalable, responsible wildlife monitoring.
 Senior Data Solutions Engineer
 
 Built for Google Gemini 3 Hackathon
+
+## Refrences
+
+* [Google Gemini API Overview](https://ai.google.dev/gemini-api/docs)
+
+* [Google AI Studio](https://aistudio.google.com/apps)
+
