@@ -290,7 +290,7 @@ A foundation for scalable, responsible wildlife monitoring.
 
 Senior Data Solutions Engineer
 
-Built for Google Gemini 3 Hackathon
+Built for (Google Gemini 3 Hackathon)[https://gemini3.devpost.com/]
 
 ## Refrences
 
