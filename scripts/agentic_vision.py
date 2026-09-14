@@ -27,7 +27,7 @@ run_video_agent(video_bytes)
 
 
 # MEMORY_FILE = Path("data/vision_memory.json")
-# memory = load_memory(MEMORY_FILE)
+memory = load_memory()
 
 if "session" not in memory or "video_path" not in memory["session"]:
     raise RuntimeError("No active session found. Run video agent first.")
