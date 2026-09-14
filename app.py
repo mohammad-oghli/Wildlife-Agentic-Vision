@@ -134,8 +134,8 @@ else:
 st.subheader("📄 Vision Memory")
 
 with st.expander("+ Show Memory"):
-    if OUTPUT_MEMORY.exists():
-        memory_data = json.load(open(OUTPUT_MEMORY))
+    if MEMORY_FILE.exists():
+        memory_data = json.load(open(MEMORY_FILE))
         st.json(memory_data)
     else:
         st.info("Memory file not found yet.")
