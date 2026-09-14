@@ -119,7 +119,7 @@ Tracking strategy (MANDATORY):
         {CODE_BLOCK}
 
 Drawing rules:
-- Add title [At Risk: class attribute] with blue font 
+- Add title At Risk: class attribute with blue font 
 - Draw ONLY bounding boxes for animals marked "at_risk"
 - Bounding boxes must be red (BGR: 0,0,255)
 - Label each box with:
@@ -131,7 +131,7 @@ Output behavior:
 - Save the output video to:
   {OUTPUT_PATH}/annotated_wildlife.mp4
 - Save 3 random images from seed [time_window] with tracker to:
-  {OUTPUT_PATH}/tracker_sample_frame
+  {OUTPUT_PATH}/tracker_sample_frame/frame_1.jpg
 - Use a Linux-compatible codec (mp4v or avc1)
 
 Rules:
