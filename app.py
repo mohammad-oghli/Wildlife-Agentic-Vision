@@ -15,8 +15,8 @@ from tools.code_runner import run_code
 SAMPLES_DIR = Path("data/samples")
 OUTPUT_PATH = Path("data/output")
 TRACKER_FRAMES_DIR = Path("data/output/tracker_sample_frame")
-MEMORY_FILE = Path("data/vision_memory.json")
-OUTPUT_MEMORY = Path("data/memory.json")
+MEMORY_FILE = Path("data/memory.json")
+#OUTPUT_MEMORY = Path("data/memory.json")
 SCRIPT_PATH = Path("scripts/agent_output_code/visualize_result.py")
 SETTINGS_PATH = Path("config/settings.yaml")
 
