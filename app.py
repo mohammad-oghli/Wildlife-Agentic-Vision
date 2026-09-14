@@ -71,7 +71,7 @@ with col2:
         # --------------------------
         with st.spinner("Running Visualization Agent..."):
 
-            memory = load_memory(MEMORY_FILE)
+            memory = load_memory()
             code_text = visualize_from_video(str(sample_path), memory)
             run_code(code_text, path=SCRIPT_PATH)
 
